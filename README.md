@@ -1,4 +1,4 @@
-[![Vibecondom Security Scan](https://github.com/ngmisl/sol.prompt/actions/workflows/vibecondom.yaml/badge.svg)](https://github.com/ngmisl/sol.prompt/actions/workflows/vibecondom.yaml) [![CodeQL](https://github.com/ngmisl/sol.prompt/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/ngmisl/sol.prompt/actions/workflows/github-code-scanning/codeql)
+[![Vibecondom Security Scan](https://github.com/ngmisl/sol.prompt/actions/workflows/vibecondom.yaml/badge.svg)](https://github.com/ngmisl/sol.prompt/actions/workflows/vibecondom.yaml) [![CodeQL](https://github.com/ngmisl/sol.prompt/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/ngmisl/sol.prompt/actions/workflows/github-code-scanning/codeql) [![Go](https://github.com/ngmisl/sol.prompt/actions/workflows/go.yml/badge.svg)](https://github.com/ngmisl/sol.prompt/actions/workflows/go.yml)
 
 # sol.prompt
 
@@ -169,17 +169,6 @@ The tool automatically identifies and highlights:
 
 ## 🛠️ Development
 
-### Project Structure
-```
-sol.prompt/
-├── main.go                 # Core application logic
-├── go.mod                  # Go module definition
-├── README.md              # This file
-└── examples/              # Example usage and outputs
-    ├── sample-contracts/   # Test Solidity files
-    └── sample-output.xml   # Example sol.prompt output
-```
-
 ### Building
 ```bash
 # Build for current platform
@@ -242,12 +231,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Trail of Bits for audit methodology inspiration
 - Go team for excellent concurrency primitives
 
-## 📞 Support
+## Support
 
-For questions, issues, or feature requests:
-- Create an issue on GitHub
-- Join our Discord community
-- Follow us on Twitter for updates
+[Support Me](https://fourzerofour.fkey.id)
 
 ---
 
