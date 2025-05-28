@@ -1,3 +1,5 @@
+[![Vibecondom Security Scan](https://github.com/ngmisl/sol.prompt/actions/workflows/vibecondom.yaml/badge.svg)](https://github.com/ngmisl/sol.prompt/actions/workflows/vibecondom.yaml) [![CodeQL](https://github.com/ngmisl/sol.prompt/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/ngmisl/sol.prompt/actions/workflows/github-code-scanning/codeql)
+
 # sol.prompt
 
 A high-performance, type-safe Go tool that prepares Solidity smart contracts for AI-powered security auditing. Extracts, analyzes, and optimizes contract code to create LLM-ready audit prompts with security-focused organization.
