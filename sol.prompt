@@ -1,0 +1,53 @@
+<contracts>
+  <contract name="MinotaurPass.sol">
+    <![CDATA[
+pragma solidity ^0.8.9;
+contract MinotaurPass is  MinutaurUri, Ownable {
+    constructor() {
+    mapping(address => bool) authorized;
+    mapping (address => uint256) ownerTokenId;
+    uint256 tokenId;
+    function setAuthorized(address addr, bool val) public onlyOwner{
+    function setValues(string memory _name_, string memory _description, string memory _imageUrl) public onlyOwner{
+    function safeMint(address to) public {
+    function updateUri(address addr, string memory date) public {
+    function checkOwnerTokenId(address addr) public view returns (uint256 id){
+    function _beforeTokenTransfer(
+        address from,
+        address to,
+        uint256 _tokenId, /* firstTokenId */
+        uint256 batchSize
+    ]]>
+  </contract>
+  <contract name="MinutaurUri.sol">
+    <![CDATA[
+pragma solidity ^0.8.18;
+abstract contract MinutaurUri is ERC721 {
+    mapping (uint256 => string) lastWin;
+    string _name;
+    string description;
+    string imagenUrl;
+    constructor()ERC721("MinotaurPass", "MNP"){
+    function tokenURI(uint256 tokenId) public view virtual override returns (string memory) {
+        string memory json = Base64.encode(
+        string memory output = string(
+    ]]>
+  </contract>
+  <contract name="MinotaurToken.sol">
+    <![CDATA[
+pragma solidity ^0.8.9;
+contract MinotaurToken is ERC20, Pausable, Ownable {
+    constructor(MinotaurPass _minotaurPass) ERC20("Minotaur", "MNT") {
+    uint lastRoundTime;
+    uint256 incrementalTime;
+    function pause() public onlyOwner {
+    function unpause() public onlyOwner {
+    function mint(address to, uint256 amount, string memory date) public {
+    function checkLastRoundTime() view public returns (bool) {
+    function startNewRound() public {
+    function setIncreamental(uint256 time) public onlyOwner {
+    function getPlayers() view public returns (address[] memory _players){
+    function _beforeTokenTransfer(address from, address to, uint256 amount)
+    ]]>
+  </contract>
+</contracts>
